@@ -8,8 +8,6 @@ Version:	3.9
 Release:	1
 License:	distributable
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(pl):	Aplikacje/System
 Source0:	%{name}-%{version}.tar.gz
 Patch0:		%{name}-pl.po.patch
 Patch1:		%{name}-kernel23.patch
