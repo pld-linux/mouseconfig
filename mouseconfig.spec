@@ -6,14 +6,14 @@ Summary(tr):	Red Hat & PLD fare yapýlandýrma aracý
 Name:		mouseconfig
 Version:	3.9
 Release:	1
-Copyright:	distributable
+License:	distributable
 Group:		Applications/System
 Group(de):	Applikationen/System
 Group(pl):	Aplikacje/System
 Source0:	%{name}-%{version}.tar.gz
 Patch0:		%{name}-pl.po.patch
 Patch1:		%{name}-kernel23.patch
-Excludearch:	sparc
+ExcludeArch:	sparc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -34,6 +34,12 @@ werden, um den richtigen Maustyp für Programme wie gpm einzustellen,
 oder aber in Kombination mit dem Red-Hat-XConfigurator zum Einrichten
 der Maus für das X-Window-System.
 
+%description -l pl
+To jest tekstowe narzêdzie do konfiguracji myszy. Mo¿esz u¿yæ go do
+ustawienia typu myszki programach typu gpm. Mo¿e byæ tak¿e
+wykorzystane w po³±czeniu z redhatowym Xconfiguratorem do ustawienia
+myszy dla X Window System.
+
 %description -l tr
 Metin tabanlý bir fare yapýlandýrma aracýdýr. gpm benzeri programlar
 için uygun fare tipinin kurulmasýnda kullanýlýr. Ayný zamanda X Window
@@ -48,7 +54,7 @@ beraber kullanýlabilir.
 # First check running Linux release ... 
 RELEASE=`uname -r | head -c 3`
 if [ "$RELEASE" = "2.3" ]; then
-    patch -p1 < $RPM_SOURCE_DIR/%{name}-kernel23.patch
+    patch -p1 < %{PATCH1}
 fi
 
 %{__make} CPPFLAGS="%{rpmcflags}"
