@@ -11,10 +11,10 @@ Group:		Applications/System
 Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	dcf2c85f8259736b683412ce5462d38b
 Patch1:		%{name}-pl.po.patch
-ExcludeArch:	sparc
-ExcludeArch:	s390 s390x
+BuildRequires:	kudzu-devel
+BuildRequires:	newt-devel
+ExcludeArch:	sparc s390 s390x
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-BuildRequires:	kudzu-devel, newt-devel
 
 %description
 This is a text based mouse configuration tool. You can use it to set
@@ -52,14 +52,14 @@ beraber kullanýlabilir.
 
 %build
 # First check running Linux release ... 
-%{__make} CPPFLAGS="%{rpmcflags}"
+%{__make} \
+	CPPFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__make} \
+%{__make} install \
     DESTDIR=$RPM_BUILD_ROOT \
-    mandir=%{_mandir} install \
-    install
+    mandir=%{_mandir}
 
 %find_lang %{name}
 
