@@ -3,8 +3,8 @@ Summary(fr): L'outil de configuration de la souris de Red Hat.
 Summary(de): Red Hat Mauskonfigurations-Tool
 Summary(tr): Red Hat fare yapýlandýrma aracý
 Name:        mouseconfig
-Version:     2.6
-Release:     3
+Version:     2.7
+Release:     2
 Copyright:   distributable
 Group:       Utilities/System
 Source:      %{name}-%{version}.tar.gz
@@ -61,11 +61,12 @@ rm -rf $RPM_BUILD_ROOT
 %lang(fr) /usr/share/locale/fr/LC_MESSAGES/mouseconfig.mo
 %lang(no) /usr/share/locale/no/LC_MESSAGES/mouseconfig.mo
 %lang(pl) /usr/share/locale/pl/LC_MESSAGES/mouseconfig.mo
+%lang(ro) /usr/share/locale/ro/LC_MESSAGES/mouseconfig.mo
 %lang(tr) /usr/share/locale/tr/LC_MESSAGES/mouseconfig.mo
 
 %changelog
 * Thu Sep  3 1998 Tomasz K³oczko <kloczek@rudy.mif.pg.gda.pl>
-  [2.6-3]
+  [2.7-2]
 - added mouseconfig-pl.po.patch with polish translation 
   (Konrad Stepieñ <konrad@interdata.com.pl>),
 - added mouseconfig-makefile.patch with fixing problems on building
@@ -77,6 +78,7 @@ rm -rf $RPM_BUILD_ROOT
 - added using %%{name} and %%{version} in Source,
 - added %lang macros for /usr/share/locale/*/LC_MESSAGES/mouseconfig.mo
   files,
+- removed "RPM_OPT_FLAGS=\"$RPM_OPT_FLAGS\"" make parameter (not necessary),
 - added %attr and %defattr macros in %files (allow build package from
   non-root account).
 
