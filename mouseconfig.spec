@@ -11,7 +11,7 @@ Source:      %{name}-%{version}.tar.gz
 Patch0:      mouseconfig-pl.po.patch
 Patch1:      mouseconfig-makefile.patch
 Excludearch: sparc
-Buildroot:   /tmp/%{name}-%{version}-root
+BuildRoot:	/tmp/%{name}-%{version}-root
 
 %description
 This is a text based mouse configuration tool.  You can use
