@@ -47,12 +47,12 @@ if [ "$RELEASE" = "2.3" ]; then
     patch -p1 < $RPM_SOURCE_DIR/%{name}-kernel23.patch
 fi
 
-make CPPFLAGS="$RPM_OPT_FLAGS"
+%{__make} CPPFLAGS="$RPM_OPT_FLAGS"
 strip mouseconfig
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make \
+%{__make} \
     PREFIX=$RPM_BUILD_ROOT \
     install
 
