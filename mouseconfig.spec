@@ -55,15 +55,15 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644, root, root)
 %attr(755, root, root) /usr/sbin/mouseconfig
 %{_mandir}/man8/mouseconfig.8
-%lang(cz) /usr/share/locale/cz/LC_MESSAGES/mouseconfig.mo
-%lang(de) /usr/share/locale/de/LC_MESSAGES/mouseconfig.mo
-%lang(en) /usr/share/locale/en*/LC_MESSAGES/mouseconfig.mo
-%lang(fr) /usr/share/locale/fr/LC_MESSAGES/mouseconfig.mo
-%lang(no) /usr/share/locale/no/LC_MESSAGES/mouseconfig.mo
-%lang(pl) /usr/share/locale/pl/LC_MESSAGES/mouseconfig.mo
-%lang(ro) /usr/share/locale/ro/LC_MESSAGES/mouseconfig.mo
-%lang(sr) /usr/share/locale/sr/LC_MESSAGES/mouseconfig.mo
-%lang(tr) /usr/share/locale/tr/LC_MESSAGES/mouseconfig.mo
+%lang(cz) %{_datadir}/locale/cz/LC_MESSAGES/mouseconfig.mo
+%lang(de) %{_datadir}/locale/de/LC_MESSAGES/mouseconfig.mo
+%lang(en) %{_datadir}/locale/en*/LC_MESSAGES/mouseconfig.mo
+%lang(fr) %{_datadir}/locale/fr/LC_MESSAGES/mouseconfig.mo
+%lang(no) %{_datadir}/locale/no/LC_MESSAGES/mouseconfig.mo
+%lang(pl) %{_datadir}/locale/pl/LC_MESSAGES/mouseconfig.mo
+%lang(ro) %{_datadir}/locale/ro/LC_MESSAGES/mouseconfig.mo
+%lang(sr) %{_datadir}/locale/sr/LC_MESSAGES/mouseconfig.mo
+%lang(tr) %{_datadir}/locale/tr/LC_MESSAGES/mouseconfig.mo
 
 %changelog
 * Thu Sep  3 1998 Tomasz K³oczko <kloczek@rudy.mif.pg.gda.pl>
@@ -77,7 +77,7 @@ rm -rf $RPM_BUILD_ROOT
 - mouseconfig is now recompiled against slang 1.2.x, 
 - changed Buildroot to /tmp/%%{name}-%%{version}-root,
 - added using %%{name} and %%{version} in Source,
-- added %lang macros for /usr/share/locale/*/LC_MESSAGES/mouseconfig.mo
+- added %lang macros for %{_datadir}/locale/*/LC_MESSAGES/mouseconfig.mo
   files,
 - removed "RPM_OPT_FLAGS=\"$RPM_OPT_FLAGS\"" make parameter (not necessary),
 - added %attr and %defattr macros in %files (allows build package from
