@@ -1,153 +1,642 @@
 diff -Nru mouseconfig-2.7/po/pl.po mouseconfig-2.7.new/po/pl.po
---- mouseconfig-2.7/po/pl.po	Thu Jan  1 01:00:00 1970
-+++ mouseconfig-2.7.new/po/pl.po	Sun Sep 13 20:34:48 1998
-@@ -0,0 +1,149 @@
-+# Polish translation of mouseconfig
-+# Copyright (C) 1998 Free Software Foundation, Inc.
-+# Adam Kozubowicz <tapir@interdata.com.pl>, 1998.
-+#, fuzzy
-+msgid ""
-+msgstr ""
-+"Project-Id-Version: mouseconfig \n"
-+"POT-Creation-Date: 1998-05-02 21:39:50-0400\n"
-+"PO-Revision-Date: 1998-09-04 17:00+0200\n"
-+"Last-Translator: Adam Kozubowicz <tapir@interdata.com.pl>\n"
-+"Language-Team: Polish <pl@li.org>\n"
-+"MIME-Version: 1.0\n"
-+"Content-Type: text/plain; charset=ISO-8859-2\n"
-+"Content-Transfer-Encoding: 8-bit\n"
-+"Xgettext-Options: --default-domain=mouseconfig --add-comments --keyword=_ --keyword=N_\n"
-+"Files: ../mouseconfig.c\n"
+--- mouseconfig-2.7/po/pl.po.orig	Tue Aug  6 18:02:22 2002
++++ mouseconfig-2.7/po/pl.po	Sun Aug 18 23:48:05 2002
+@@ -1,284 +1,296 @@
+-# SOME DESCRIPTIVE TITLE.
+-# Copyright (C) YEAR Free Software Foundation, Inc.
+-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
++# Polish localization for PLD Linux Distribution.
++# Grzegorz Godlewski <ggodlewski@wi.ps.pl>, 2002.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: mouseconfig\n"
+-"POT-Creation-Date: 2002-08-06 17:35+0200\n"
+-"PO-Revision-Date: 2001-01-24 20:24-0500\n"
+-"Last-Translator: Unknown\n"
+-"Language-Team: Unknown\n"
++"POT-Creation-Date: 2002-08-18 23:30+0100\n"
++"PO-Revision-Date: 2002-08-18 23:30+0100\n"
++"Last-Translator: Grzegorz Godlewski\n"
++"Language-Team: Polish\n"
+ "MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=iso-8859-1\n"
++"Content-Type: text/plain; charset=iso-8859-2\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ 
+-#: ../mouseconfig.c:51
++#: ../mouseconfig.c:52
+ msgid "No Mouse"
+-msgstr ""
++msgstr "Bez myszy"
+ 
+-#: ../mouseconfig.c:53 ../mouseconfig.c:915
++#: ../mouseconfig.c:54 ../mouseconfig.c:917
+ msgid "PS/2"
+-msgstr ""
++msgstr "PS/2"
+ 
+-#: ../mouseconfig.c:54
++#: ../mouseconfig.c:55
+ msgid "Sun"
+-msgstr ""
++msgstr "Sun"
+ 
+-#: ../mouseconfig.c:56
++#: ../mouseconfig.c:57
+ msgid "ALPS GlidePoint (PS/2)"
+-msgstr ""
++msgstr "ALPS GlidePoint (PS/2)"
+ 
+-#: ../mouseconfig.c:58
++#: ../mouseconfig.c:59
+ msgid "ASCII MieMouse (serial)"
+-msgstr ""
++msgstr "ASCII MieMouse (szeregowa)"
+ 
+-#: ../mouseconfig.c:60
++#: ../mouseconfig.c:61
+ msgid "ASCII MieMouse (PS/2)"
+-msgstr ""
++msgstr "ASCII MieMouse (PS/2)"
+ 
+-#: ../mouseconfig.c:62
++#: ../mouseconfig.c:63
+ msgid "ATI Bus Mouse"
+-msgstr ""
++msgstr "Mysz ATI Bus"
+ 
+-#: ../mouseconfig.c:63
++#: ../mouseconfig.c:64
+ msgid "Generic Mouse (serial)"
+-msgstr ""
++msgstr "Zwyk³a mysz (szeregowa)"
+ 
+-#: ../mouseconfig.c:65
++#: ../mouseconfig.c:66
+ msgid "Generic 3 Button Mouse (serial)"
+-msgstr ""
++msgstr "Zwyk³a mysz z 3 przyciskami (szeregowa)"
+ 
+-#: ../mouseconfig.c:67
++#: ../mouseconfig.c:68
+ msgid "Generic Mouse (PS/2)"
+-msgstr ""
++msgstr "Zwyk³a mysz (PS/2)"
+ 
+-#: ../mouseconfig.c:68
++#: ../mouseconfig.c:69
+ msgid "Generic 3 Button Mouse (PS/2)"
+-msgstr ""
++msgstr "Zwyk³a mysz z 3 przyciskami (PS/2)"
+ 
+-#: ../mouseconfig.c:70
++#: ../mouseconfig.c:71
+ msgid "Generic Mouse (USB)"
+-msgstr ""
++msgstr "Zwyk³a mysz (USB)"
+ 
+-#: ../mouseconfig.c:71
++#: ../mouseconfig.c:72
+ msgid "Generic 3 Button Mouse (USB)"
+-msgstr ""
++msgstr "Zwyk³a mysz z 3 przyciskami (USB)"
+ 
+-#: ../mouseconfig.c:73
++#: ../mouseconfig.c:74
+ msgid "Genius NetMouse (serial)"
+-msgstr ""
++msgstr "Genius NetMouse (szeregowa)"
+ 
+-#: ../mouseconfig.c:75
++#: ../mouseconfig.c:76
+ msgid "Genius NetMouse (PS/2)"
+-msgstr ""
++msgstr "Genius NetMouse (PS/2)"
+ 
+-#: ../mouseconfig.c:77
++#: ../mouseconfig.c:78
+ msgid "Genius NetMouse Pro (PS/2)"
+-msgstr ""
++msgstr "Genius NetMouse Pro (PS/2)"
+ 
+-#: ../mouseconfig.c:79
++#: ../mouseconfig.c:80
+ msgid "Genius NetScroll (PS/2)"
+-msgstr ""
++msgstr "Genius NetScroll (PS/2)"
+ 
+-#: ../mouseconfig.c:81
++#: ../mouseconfig.c:82
+ msgid "Kensington Thinking Mouse (serial)"
+-msgstr ""
++msgstr "Kensington Thinking Mouse (szeregowa)"
+ 
+-#: ../mouseconfig.c:83
++#: ../mouseconfig.c:84
+ msgid "Kensington Thinking Mouse (PS/2)"
+-msgstr ""
++msgstr "Kensington Thinking Mouse (PS/2)"
+ 
+-#: ../mouseconfig.c:85
++#: ../mouseconfig.c:86
+ msgid "Logitech Mouse (serial, old C7 type)"
+-msgstr ""
++msgstr "Mysz Logitech (szeregowa, stary typ C7)"
+ 
+-#: ../mouseconfig.c:87
++#: ../mouseconfig.c:88
+ msgid "Logitech CC Series (serial)"
+-msgstr ""
++msgstr "Logitech CC Series (szeregowa)"
+ 
+-#: ../mouseconfig.c:89
++#: ../mouseconfig.c:90
+ msgid "Logitech Bus Mouse"
+-msgstr ""
++msgstr "Mysz Logitech Bus"
+ 
+-#: ../mouseconfig.c:90
++#: ../mouseconfig.c:91
+ msgid "Logitech MouseMan/FirstMouse (serial)"
+-msgstr ""
++msgstr "Logitech MouseMan/FirstMouse (szeregowa)"
+ 
+-#: ../mouseconfig.c:92
++#: ../mouseconfig.c:93
+ msgid "Logitech MouseMan/FirstMouse (PS/2)"
+-msgstr ""
++msgstr "Logitech MouseMan/FirstMouse (PS/2)"
+ 
+-#: ../mouseconfig.c:94
++#: ../mouseconfig.c:95
+ msgid "Logitech MouseMan+/FirstMouse+ (serial)"
+-msgstr ""
++msgstr "Logitech MouseMan+/FirstMouse+ (szeregowa)"
+ 
+ #: ../mouseconfig.c:96
+ msgid "Logitech MouseMan+/FirstMouse+ (PS/2)"
+-msgstr ""
++msgstr "Logitech MouseMan+/FirstMouse+ (PS/2)"
+ 
+-#: ../mouseconfig.c:98
++#: ../mouseconfig.c:99
+ msgid "Logitech MouseMan Wheel (USB)"
+-msgstr ""
++msgstr "Logitech MouseMan Wheel (USB)"
+ 
+-#: ../mouseconfig.c:100
++#: ../mouseconfig.c:101
+ msgid "Microsoft compatible (serial)"
+-msgstr ""
++msgstr "Microsoft compatible (szeregowa)"
+ 
+-#: ../mouseconfig.c:102
++#: ../mouseconfig.c:103
+ msgid "Microsoft Rev 2.1A or higher (serial)"
+-msgstr ""
++msgstr "Microsoft Rev 2.1A or higher (szeregowa)"
+ 
+-#: ../mouseconfig.c:104
++#: ../mouseconfig.c:105
+ msgid "Microsoft IntelliMouse (serial)"
+-msgstr ""
++msgstr "Microsoft IntelliMouse (szeregowa)"
+ 
+-#: ../mouseconfig.c:106
++#: ../mouseconfig.c:107
+ msgid "Microsoft IntelliMouse (PS/2)"
+-msgstr ""
++msgstr "Microsoft IntelliMouse (PS/2)"
+ 
+-#: ../mouseconfig.c:108
++#: ../mouseconfig.c:109
+ msgid "Microsoft IntelliMouse (USB)"
+-msgstr ""
++msgstr "Microsoft IntelliMouse (USB)"
+ 
+-#: ../mouseconfig.c:110
++#: ../mouseconfig.c:111
+ msgid "Microsoft Bus Mouse"
+-msgstr ""
++msgstr "Mysz Microsoft Bus"
+ 
+-#: ../mouseconfig.c:111
++#: ../mouseconfig.c:112
+ msgid "Mouse Systems (serial)"
+-msgstr ""
++msgstr "Mouse Systems (szeregowa)"
+ 
+-#: ../mouseconfig.c:113
++#: ../mouseconfig.c:114
+ msgid "MM Series (serial)"
+-msgstr ""
++msgstr "MM Series (szeregowa)"
+ 
+-#: ../mouseconfig.c:114
++#: ../mouseconfig.c:115
+ msgid "MM HitTablet (serial)"
+-msgstr ""
++msgstr "MM HitTablet (szeregowa)"
+ 
+-#: ../mouseconfig.c:127
++#: ../mouseconfig.c:128
+ msgid ""
+ "\n"
+ "Usage: mouseconfig [--kickstart] [--device <dev>] [--emulthree] [--noprobe] "
+ "[<mousetype>]\n"
+ "\n"
+ msgstr ""
++"\n"
++"U¿ycie: mouseconfig [--kickstart] [--device <dev>] [--emulthree] [--noprobe] "
++"[<mousetype>]\n"
++"\n"
+ 
+-#: ../mouseconfig.c:129
++#: ../mouseconfig.c:130
+ msgid "       --modifyx        Modify X configuration\n"
+-msgstr ""
++msgstr "       --modifyx        Zmodyfikuj konfiguracjê X Windows\n"
+ 
+-#: ../mouseconfig.c:130
++#: ../mouseconfig.c:131
+ msgid "       --noprobe        No automatic probing will be done\n"
+-msgstr ""
++msgstr "       --noprobe        Bez automatycznego wykrywania\n"
+ 
+-#: ../mouseconfig.c:131
++#: ../mouseconfig.c:132
++msgid "       --oldxfree86     XF86Config is in XFree86-3 format\n"
++msgstr "       --oldxfree86     XF86Config jest w formacie XFree86-3\n"
 +
-+#: ../mouseconfig.c:129
-+msgid "%s: cannot open /etc/sysconfig/mouse: %s\n"
++#: ../mouseconfig.c:133
+ msgid "       --device <dev>   Specify port mouse is on\n"
+-msgstr ""
++msgstr "       --device <dev>   Wybór portu myszy\n"
+ 
+-#: ../mouseconfig.c:132
++#: ../mouseconfig.c:134
+ msgid ""
+ "            <dev> is typically ttyS[0-3], \n"
+ "                  or psaux for PS/2 mice on a PS/2 port\n"
+ "\n"
+ msgstr ""
++"            <dev> zwykle jest ustawione na ttyS[0-3], \n"
++"                  lub psaux dla myszy PS/2 na porcie PS/2\n"
++"\n"
+ 
+-#: ../mouseconfig.c:134
++#: ../mouseconfig.c:136
+ msgid "       <mousetype> is one of:\n"
+-msgstr ""
++msgstr "       <mousetype> jest jedn± z:\n"
+ 
+-#: ../mouseconfig.c:137
++#: ../mouseconfig.c:139
+ msgid ""
+ "\n"
+ "       If <mousetype> is not given then user will be interactively queried.\n"
+ msgstr ""
++"\n"
++"       Je¿eli <mousetype> nie jest podana u¿ytkownik zosanie zapytany o typ.\n"
+ 
+-#: ../mouseconfig.c:196
++#: ../mouseconfig.c:198
+ #, c-format
+ msgid "%s: cannot open /etc/sysconfig/mouse: %s\n"
+-msgstr ""
 +msgstr "%s: nie mo¿na otworzyæ /etc/sysconfig/mouse: %s\n"
-+
-+#: ../mouseconfig.c:156 ../mouseconfig.c:190
-+msgid "%s: mismatched quotes on line %d in /etc/sysconfig/mouse\n"
-+msgstr "%s: ¼le ustawione apostrofy (znak ') w linii %d pliku /etc/sysconfig/mouse\n"
-+
-+#: ../mouseconfig.c:206
-+msgid "%s: line %d unexpected in /etc/sysconfig/mouse\n"
-+msgstr "%s: nieoczekiwana linia %d w /etc/sysconfig/mouse\n"
-+
-+#: ../mouseconfig.c:214
-+msgid "%s: cannot read /etc/sysconfig/mouse: %s\n"
-+msgstr "%s: nie mo¿na czytaæ z pliku /etc/sysconfig/mouse: %s\n"
-+
-+#: ../mouseconfig.c:303
-+msgid "%s: failed to make /etc/sysconfig/mouse: %s"
-+msgstr "%s: b³±d podczas tworzenia /etc/sysconfig/mouse: %s"
-+
-+#: ../mouseconfig.c:367
-+msgid "Emulate 3 Buttons?"
-+msgstr "Emulowaæ 3 Klawisze?"
-+
-+#: ../mouseconfig.c:370 ../mouseconfig.c:425 ../mouseconfig.c:516 ../mouseconfig.c:535
-+msgid "Ok"
+ 
+-#: ../mouseconfig.c:223 ../mouseconfig.c:265 ../mouseconfig.c:299
+-#: ../mouseconfig.c:316
++#: ../mouseconfig.c:225 ../mouseconfig.c:267 ../mouseconfig.c:301
++#: ../mouseconfig.c:318
+ #, c-format
+ msgid "%s: mismatched quotes on line %d in /etc/sysconfig/mouse\n"
+-msgstr ""
++msgstr "%s: nie zamkniêty cydzys³ow na linii %d w /etc/sysconfig/mouse\n"
+ 
+-#: ../mouseconfig.c:334
++#: ../mouseconfig.c:336
+ #, c-format
+ msgid "%s: line %d unexpected in /etc/sysconfig/mouse\n"
+-msgstr ""
++msgstr "%s: b³êdna linia %d w /etc/sysconfig/mouse\n"
+ 
+-#: ../mouseconfig.c:341
++#: ../mouseconfig.c:343
+ #, c-format
+ msgid "%s: cannot read /etc/sysconfig/mouse: %s\n"
+-msgstr ""
++msgstr "%s: nie mo¿na czytaæ /etc/sysconfig/mouse: %s\n"
+ 
+-#: ../mouseconfig.c:442 ../mouseconfig.c:450 ../mouseconfig.c:546
+-#: ../mouseconfig.c:554
++#: ../mouseconfig.c:444 ../mouseconfig.c:452 ../mouseconfig.c:548
++#: ../mouseconfig.c:556
+ msgid "Error"
+-msgstr ""
++msgstr "B³±d"
+ 
+-#: ../mouseconfig.c:442 ../mouseconfig.c:450 ../mouseconfig.c:546
+-#: ../mouseconfig.c:554 ../mouseconfig.c:722 ../mouseconfig.c:746
+-#: ../mouseconfig.c:793 ../mouseconfig.c:891 ../mouseconfig.c:928
+-#: ../mouseconfig.c:933 ../mouseconfig.c:938
++#: ../mouseconfig.c:444 ../mouseconfig.c:452 ../mouseconfig.c:548
++#: ../mouseconfig.c:556 ../mouseconfig.c:724 ../mouseconfig.c:748
++#: ../mouseconfig.c:795 ../mouseconfig.c:893 ../mouseconfig.c:930
++#: ../mouseconfig.c:935 ../mouseconfig.c:940
+ msgid "Ok"
+-msgstr ""
 +msgstr "Ok"
-+
-+#: ../mouseconfig.c:371 ../mouseconfig.c:425
-+msgid "Back"
-+msgstr "Cofnij"
-+
-+#: ../mouseconfig.c:371 ../mouseconfig.c:516
-+msgid "Cancel"
+ 
+-#: ../mouseconfig.c:443
++#: ../mouseconfig.c:445
+ msgid "There was an error reading your current /etc/X11/XF86Config file"
+-msgstr ""
++msgstr "Wyst±pi³ b³±d podczas czytania /etc/X11/XF86Config"
+ 
+-#: ../mouseconfig.c:451
++#: ../mouseconfig.c:453
+ msgid "There was an error writing your new /etc/X11/XF86Config file"
+-msgstr ""
++msgstr "Wyst±pi³ b³±d podczas zapisu /etc/X11/XF86Config"
+ 
+-#: ../mouseconfig.c:547
++#: ../mouseconfig.c:549
+ #, c-format
+ msgid "There was an error reading your current %s file"
+-msgstr ""
++msgstr "Wyst±pi³ b³±d podczas czytania %s"
+ 
+-#: ../mouseconfig.c:555
++#: ../mouseconfig.c:557
+ #, c-format
+ msgid "There was an error writing your new %s file"
+-msgstr ""
++msgstr "Wyst±pi³ b³±d podczas zapisu %s"
+ 
+-#: ../mouseconfig.c:631
++#: ../mouseconfig.c:633
+ #, c-format
+ msgid "%s: failed to make /etc/sysconfig/mouse: %s"
+-msgstr ""
++msgstr "%s: b³±d tworzenia /etc/sysconfig/mouse: %s"
+ 
+-#: ../mouseconfig.c:719
++#: ../mouseconfig.c:721
+ msgid "Emulate 3 Buttons?"
+-msgstr ""
++msgstr "Emulowaæ 3 przyciski?"
+ 
+-#: ../mouseconfig.c:723 ../mouseconfig.c:793
++#: ../mouseconfig.c:725 ../mouseconfig.c:795
+ msgid "Back"
+-msgstr ""
++msgstr "Wstecz"
+ 
+-#: ../mouseconfig.c:723 ../mouseconfig.c:891
++#: ../mouseconfig.c:725 ../mouseconfig.c:893
+ msgid "Cancel"
+-msgstr ""
 +msgstr "Anuluj"
+ 
+-#: ../mouseconfig.c:725
++#: ../mouseconfig.c:727
+ msgid "Help"
+-msgstr ""
++msgstr "Pomoc"
+ 
+-#: ../mouseconfig.c:727
++#: ../mouseconfig.c:729
+ msgid "What type of mouse do you have?"
+-msgstr ""
++msgstr "Jaki typ myszy posiadasz?"
+ 
+-#: ../mouseconfig.c:732
++#: ../mouseconfig.c:734
+ msgid "Configure Mouse"
+-msgstr ""
++msgstr "Konfiguracja myszy"
+ 
+-#: ../mouseconfig.c:746
++#: ../mouseconfig.c:748
+ msgid "Mouse Config Help"
+-msgstr ""
++msgstr "Pomoc Mouse Config"
+ 
+-#: ../mouseconfig.c:747
++#: ../mouseconfig.c:749
+ msgid ""
+ "Choose your mouse from one of those listed.  If you see your\n"
+ "mouse in the list, or know your mouse is compatible with one\n"
+@@ -288,120 +303,133 @@
+ "have, or your mouse is not listed, choose the closest matching\n"
+ "\"Generic\" entry with the same interface and number of buttons."
+ msgstr ""
+-
+-#: ../mouseconfig.c:770
+-msgid "/dev/ttyS0 (COM1 under DOS)"
+-msgstr ""
+-
+-#: ../mouseconfig.c:771
+-msgid "/dev/ttyS1 (COM2 under DOS)"
+-msgstr ""
++"Wybierz swoj± mysz z listy. Je¿li jest na li¶cie, lub jest tam\n"
++"mysz kompatybilna z ni± wybierz t± pozycjê. Zwróæ uwagê na\n"
++"interfejs myszy. Myszy szeregowe maj± p³ask± wtyczkê, PS/2 okr±g³±\n"
++"Je¿eli nie jeste¶ pewien jak± masz mysz, lub nie ma jej na li¶cie\n"
++"wybierz najbardzie pasuj±c± \"Zwyk³±\" mysz o tym samym interfejsie\n"
++"i liczbie przycisków."
+ 
+ #: ../mouseconfig.c:772
+-msgid "/dev/ttyS2 (COM3 under DOS)"
+-msgstr ""
++msgid "/dev/ttyS0 (COM1 pod DOS)"
++msgstr "/dev/ttyS0 (COM1 pod DOS)"
+ 
+ #: ../mouseconfig.c:773
+-msgid "/dev/ttyS3 (COM4 under DOS)"
+-msgstr ""
++msgid "/dev/ttyS1 (COM2 pod DOS)"
++msgstr "/dev/ttyS1 (COM2 pod DOS)"
 +
-+#: ../mouseconfig.c:374
-+msgid "What type of mouse do you have?"
-+msgstr "Jaki typ myszki posiadasz?"
++#: ../mouseconfig.c:774
++msgid "/dev/ttyS2 (COM3 pod DOS)"
++msgstr "/dev/ttyS2 (COM3 pod DOS)"
 +
-+#: ../mouseconfig.c:379
-+msgid "Configure Mouse"
-+msgstr "Konfiguracja Myszki"
-+
-+#: ../mouseconfig.c:402
-+msgid "/dev/cua0 (COM1 under DOS)"
-+msgstr "/dev/cua0 (COM1 pod DOS)"
-+
-+#: ../mouseconfig.c:403
-+msgid "/dev/cua1 (COM2 under DOS)"
-+msgstr "/dev/cua1 (COM2 pod DOS)"
-+
-+#: ../mouseconfig.c:404
-+msgid "/dev/cua2 (COM3 under DOS)"
-+msgstr "/dev/cua2 (COM3 pod DOS)"
-+
-+#: ../mouseconfig.c:405
-+msgid "/dev/cua3 (COM4 under DOS)"
-+msgstr "/dev/cua3 (COM4 pod DOS)"
-+
-+#: ../mouseconfig.c:422
-+msgid "Mouse Port"
-+msgstr "Port Myszki"
-+
-+#: ../mouseconfig.c:423
-+msgid "Which serial port is your mouse connected to?"
-+msgstr "Do którego portu szeregowego jest pod³±czona myszka?"
-+
-+#: ../mouseconfig.c:478
-+msgid "%s: only one argument (the mouse type) may be used\n"
-+msgstr "%s: mo¿na u¿yæ tylko jednego argumentu (typu myszki)\n"
-+
-+#: ../mouseconfig.c:500
-+msgid "%s: can only be run as root\n"
-+msgstr "%s: mo¿e byæ uruchomiony tylko przez root-a\n"
-+
-+#: ../mouseconfig.c:516
-+msgid "Error on Read"
-+msgstr "B³±d podczas odczytu"
-+
-+#: ../mouseconfig.c:517
-+msgid ""
-+"There was an error reading the file /etc/sysconfig/mouse.\n"
++#: ../mouseconfig.c:775
++msgid "/dev/ttyS3 (COM4 pod DOS)"
++msgstr "/dev/ttyS3 (COM4 pod DOS)"
+ 
+-#: ../mouseconfig.c:790
++#: ../mouseconfig.c:792
+ msgid "Mouse Port"
+-msgstr ""
++msgstr "Port myszy"
+ 
+-#: ../mouseconfig.c:791
++#: ../mouseconfig.c:793
+ msgid "Which serial port is your mouse connected to?"
+-msgstr ""
++msgstr "Do którego portu jest pod³±czona mysz?"
+ 
+-#: ../mouseconfig.c:845
++#: ../mouseconfig.c:847
+ #, c-format
+ msgid "%s: bad argument %s: %s\n"
+-msgstr ""
++msgstr "%s: z³y argument %s: %s\n"
+ 
+-#: ../mouseconfig.c:853
++#: ../mouseconfig.c:855
+ #, c-format
+ msgid "%s: only one argument (the mouse type) may be used\n"
+-msgstr ""
++msgstr "%s: mo¿na u¿yæ tylko jednego argumentu (typu myszy)\n"
+ 
+-#: ../mouseconfig.c:875
++#: ../mouseconfig.c:877
+ #, c-format
+ msgid "%s: can only be run as root\n"
+-msgstr ""
++msgstr "%s: tylko root mo¿e uruchamiaæ ten program\n"
+ 
+-#: ../mouseconfig.c:882
++#: ../mouseconfig.c:884
+ msgid ""
+ "  <Tab>/<Alt-Tab> between elements   |  <Space> selects   |  <F12> next "
+ "screen "
+ msgstr ""
++"  <Tab>/<Alt-Tab> miêdzy elementami   |  <Space> wybiera   |  <F12> nastêpny "
++"screen "
+ 
+-#: ../mouseconfig.c:891
++#: ../mouseconfig.c:893
+ msgid "Error on Read"
+-msgstr ""
++msgstr "B³±d odczytu"
+ 
+-#: ../mouseconfig.c:892
++#: ../mouseconfig.c:894
+ msgid ""
+ "There was an error reading the file /etc/sysconfig/mouse.\n"
+ "\n"
+ "Would you like to proceed in creating a new configuration?"
+ msgstr ""
++"Wyst±pi³ b³±d podczas odczytu pliku /etc/sysconfig/mouse.\n" 
 +"\n"
-+"Would you like to proceed in creating a new configuration?"
-+msgstr ""
-+"Powsta³ b³±d podczas odczytu pliku /etc/sysconfig/mouse.\n"
-+"\n"
-+"Chcesz kontynuowaæ i utworzyæ now± konfiguracjê?"
-+
-+#. probe to see if we can determine mouse type and port
-+#: ../mouseconfig.c:531
-+msgid "Mouse"
-+msgstr "Myszka"
-+
-+#: ../mouseconfig.c:531
-+msgid "Probing for mouse type..."
-+msgstr "Detekcja typu myszki..."
-+
-+#: ../mouseconfig.c:535
++"Utworzyæ nowy?"
+ 
+-#: ../mouseconfig.c:911
++#: ../mouseconfig.c:913
+ msgid "Mouse"
+-msgstr ""
++msgstr "Mysz"
+ 
+-#: ../mouseconfig.c:911
++#: ../mouseconfig.c:913
+ msgid "Probing for mouse type..."
+-msgstr ""
++msgstr "Wykrywanie myszy..."
+ 
+-#: ../mouseconfig.c:917
++#: ../mouseconfig.c:919
+ msgid "USB"
+-msgstr ""
++msgstr "USB"
+ 
+-#: ../mouseconfig.c:920
++#: ../mouseconfig.c:922
+ msgid "serial"
+-msgstr ""
++msgstr "szeregowa"
+ 
+-#: ../mouseconfig.c:922
++#: ../mouseconfig.c:924
+ msgid "sun"
+-msgstr ""
++msgstr "sun"
+ 
+-#: ../mouseconfig.c:928 ../mouseconfig.c:933
+-msgid "Probing Result"
+-msgstr ""
++#: ../mouseconfig.c:930 ../mouseconfig.c:935
 +msgid "Probing Result"
-+msgstr "Wyniki Detekcji"
-+
-+#: ../mouseconfig.c:536
-+msgid "Probing found a %s mouse on port %s."
-+msgstr "Detekcja znalaz³a myszkê typu %s pod³±czon± do portu %s."
-+
-+#: ../mouseconfig.c:583
-+msgid "Emulate Three Buttons"
-+msgstr "Emulacja Trzech Klawiszy"
-+
-+#: ../mouseconfig.c:583
-+msgid "Yes"
++msgstr "Wynik wykrywania"
+ 
+-#: ../mouseconfig.c:929
++#: ../mouseconfig.c:931
+ #, c-format
+ msgid "Probing found some type of %s mouse on port %s."
+-msgstr ""
++msgstr "Wykryto mysz typu %s na porcie %s."
+ 
+-#: ../mouseconfig.c:934
++#: ../mouseconfig.c:936
+ #, c-format
+ msgid "Probing found a %s mouse on port %s."
+-msgstr ""
++msgstr "Wykryto mysz %s na porcie %s."
+ 
+-#: ../mouseconfig.c:938
++#: ../mouseconfig.c:940
+ msgid "Probing Failed"
+-msgstr ""
++msgstr "Wykrywanie nie powiod³o siê"
+ 
+-#: ../mouseconfig.c:939
++#: ../mouseconfig.c:941
+ msgid ""
+ "Unable to probe mouse type.\n"
+ "You must manually choose a mouse."
+ msgstr ""
++"Nie mozna wykryc typu myszy.\n"
++"Musisz ja wybrac recznie."
+ 
+-#: ../mouseconfig.c:989
++#: ../mouseconfig.c:991
+ msgid "Emulate Three Buttons"
+-msgstr ""
++msgstr "Emulacja trzech przycisków"
+ 
+-#: ../mouseconfig.c:989 ../mouseconfig.c:1006
++#: ../mouseconfig.c:991 ../mouseconfig.c:1008
+ msgid "Yes"
+-msgstr ""
 +msgstr "Tak"
-+
-+#: ../mouseconfig.c:583
-+msgid "No"
+ 
+-#: ../mouseconfig.c:989 ../mouseconfig.c:1006
++#: ../mouseconfig.c:991 ../mouseconfig.c:1008
+ msgid "No"
+-msgstr ""
 +msgstr "Nie"
-+
-+#: ../mouseconfig.c:584
-+msgid ""
-+"X Windows generally works best with a three button mouse.  If your mouse only has two buttons you can emulate the third by pressing both buttons at the same time.\n"
-+"\n"
-+"Would you like to enable this emulation?\n"
-+"\n"
-+"(This option is only needed if you have a 2 button mouse)"
-+msgstr ""
-+"Praca z X Windows jest wygodniejsza z myszk± trójklawiszow±. Je¶li Twoja myszka posiada tylko dwa klawisze, mo¿esz wykorzystaæ emulacjê trzeciego klawisza przez naciskanie dwóch klawiszy jednocze¶nie.\n"
-+"\n"
-+"Czy chcesz uaktywniæ t± emulacjê?\n"
-+"\n"
-+"(Jest to potrzebne tylko wtedy, gdy Twoja myszka ma tylko dwa klawisze)"
+ 
+-#: ../mouseconfig.c:990
++#: ../mouseconfig.c:992
+ msgid ""
+ "X Windows generally works best with a three button mouse.  If your mouse "
+ "only has two buttons you can emulate the third by pressing both buttons at "
+@@ -411,13 +439,19 @@
+ "\n"
+ "(This option is only needed if you have a 2 button mouse)"
+ msgstr ""
++"X Windows najlepiej dzia³a z myszami 3-przyciskowymi. Je¿eli Twoja mysz"
++"ma tylko dwa przyciski mo¿na emulowaæ trzeci poprzez wciskanie obu jednocze¶nie.\n"
++"W³±czyæ emulacjê?\n"
++"(Ta opcja jest potrzebna tylko, je¿li masz mysz z 2 przyciskami)"
+ 
+-#: ../mouseconfig.c:1006
++#: ../mouseconfig.c:1008
+ msgid "Update X Configuration"
+-msgstr ""
++msgstr "Aktualizacja konfiguracji X Windows"
+ 
+-#: ../mouseconfig.c:1007
++#: ../mouseconfig.c:1009
+ msgid ""
+ "Mouseconfig can now update your XFree86 configuration file to reflect your "
+ "new mouse settings. Would you like mouseconfig to make these changes now?"
+ msgstr ""
++"Mouseconfig mo¿e teraz zmodyfikowaæ konfiguracj± XFree86, aby wprowadziæ"
++"nowe ustawienia myszy. Czy zrobiæ to teraz?"
