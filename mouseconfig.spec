@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644, root, root)
 %attr(755, root, root) /usr/sbin/mouseconfig
-%attr(644, root,  man) /usr/man/man8/mouseconfig.8
+%attr(644, root,  man) %{_mandir}/man8/mouseconfig.8
 %lang(cz) /usr/share/locale/cz/LC_MESSAGES/mouseconfig.mo
 %lang(de) /usr/share/locale/de/LC_MESSAGES/mouseconfig.mo
 %lang(en) /usr/share/locale/en*/LC_MESSAGES/mouseconfig.mo
