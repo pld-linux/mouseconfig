@@ -80,7 +80,7 @@ rm -rf $RPM_BUILD_ROOT
 - added %lang macros for /usr/share/locale/*/LC_MESSAGES/mouseconfig.mo
   files,
 - removed "RPM_OPT_FLAGS=\"$RPM_OPT_FLAGS\"" make parameter (not necessary),
-- added %attr and %defattr macros in %files (allow build package from
+- added %attr and %defattr macros in %files (allows build package from
   non-root account).
 
 * Thu May 07 1998 Prospector System <bugs@redhat.com>
