@@ -51,7 +51,7 @@ beraber kullanýlabilir.
 %patch1 -p1
 
 %build
-# First check running Linux release ... 
+# First check running Linux release ...
 %{__make} \
 	CPPFLAGS="%{rpmcflags}"
 
