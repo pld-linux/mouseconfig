@@ -1,0 +1,153 @@
+diff -Nru mouseconfig-2.7/po/pl.po mouseconfig-2.7.new/po/pl.po
+--- mouseconfig-2.7/po/pl.po	Thu Jan  1 01:00:00 1970
++++ mouseconfig-2.7.new/po/pl.po	Sun Sep 13 20:34:48 1998
+@@ -0,0 +1,149 @@
++# Polish translation of mouseconfig
++# Copyright (C) 1998 Free Software Foundation, Inc.
++# Adam Kozubowicz <tapir@interdata.com.pl>, 1998.
++#, fuzzy
++msgid ""
++msgstr ""
++"Project-Id-Version: mouseconfig \n"
++"POT-Creation-Date: 1998-05-02 21:39:50-0400\n"
++"PO-Revision-Date: 1998-09-04 17:00+0200\n"
++"Last-Translator: Adam Kozubowicz <tapir@interdata.com.pl>\n"
++"Language-Team: Polish <pl@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=ISO-8859-2\n"
++"Content-Transfer-Encoding: 8-bit\n"
++"Xgettext-Options: --default-domain=mouseconfig --add-comments --keyword=_ --keyword=N_\n"
++"Files: ../mouseconfig.c\n"
++
++#: ../mouseconfig.c:129
++msgid "%s: cannot open /etc/sysconfig/mouse: %s\n"
++msgstr "%s: nie mo¿na otworzyæ /etc/sysconfig/mouse: %s\n"
++
++#: ../mouseconfig.c:156 ../mouseconfig.c:190
++msgid "%s: mismatched quotes on line %d in /etc/sysconfig/mouse\n"
++msgstr "%s: ¼le ustawione apostrofy (znak ') w linii %d pliku /etc/sysconfig/mouse\n"
++
++#: ../mouseconfig.c:206
++msgid "%s: line %d unexpected in /etc/sysconfig/mouse\n"
++msgstr "%s: nieoczekiwana linia %d w /etc/sysconfig/mouse\n"
++
++#: ../mouseconfig.c:214
++msgid "%s: cannot read /etc/sysconfig/mouse: %s\n"
++msgstr "%s: nie mo¿na czytaæ z pliku /etc/sysconfig/mouse: %s\n"
++
++#: ../mouseconfig.c:303
++msgid "%s: failed to make /etc/sysconfig/mouse: %s"
++msgstr "%s: b³±d podczas tworzenia /etc/sysconfig/mouse: %s"
++
++#: ../mouseconfig.c:367
++msgid "Emulate 3 Buttons?"
++msgstr "Emulowaæ 3 Klawisze?"
++
++#: ../mouseconfig.c:370 ../mouseconfig.c:425 ../mouseconfig.c:516 ../mouseconfig.c:535
++msgid "Ok"
++msgstr "Ok"
++
++#: ../mouseconfig.c:371 ../mouseconfig.c:425
++msgid "Back"
++msgstr "Cofnij"
++
++#: ../mouseconfig.c:371 ../mouseconfig.c:516
++msgid "Cancel"
++msgstr "Anuluj"
++
++#: ../mouseconfig.c:374
++msgid "What type of mouse do you have?"
++msgstr "Jaki typ myszki posiadasz?"
++
++#: ../mouseconfig.c:379
++msgid "Configure Mouse"
++msgstr "Konfiguracja Myszki"
++
++#: ../mouseconfig.c:402
++msgid "/dev/cua0 (COM1 under DOS)"
++msgstr "/dev/cua0 (COM1 pod DOS)"
++
++#: ../mouseconfig.c:403
++msgid "/dev/cua1 (COM2 under DOS)"
++msgstr "/dev/cua1 (COM2 pod DOS)"
++
++#: ../mouseconfig.c:404
++msgid "/dev/cua2 (COM3 under DOS)"
++msgstr "/dev/cua2 (COM3 pod DOS)"
++
++#: ../mouseconfig.c:405
++msgid "/dev/cua3 (COM4 under DOS)"
++msgstr "/dev/cua3 (COM4 pod DOS)"
++
++#: ../mouseconfig.c:422
++msgid "Mouse Port"
++msgstr "Port Myszki"
++
++#: ../mouseconfig.c:423
++msgid "Which serial port is your mouse connected to?"
++msgstr "Do którego portu szeregowego jest pod³±czona myszka?"
++
++#: ../mouseconfig.c:478
++msgid "%s: only one argument (the mouse type) may be used\n"
++msgstr "%s: mo¿na u¿yæ tylko jednego argumentu (typu myszki)\n"
++
++#: ../mouseconfig.c:500
++msgid "%s: can only be run as root\n"
++msgstr "%s: mo¿e byæ uruchomiony tylko przez root-a\n"
++
++#: ../mouseconfig.c:516
++msgid "Error on Read"
++msgstr "B³±d podczas odczytu"
++
++#: ../mouseconfig.c:517
++msgid ""
++"There was an error reading the file /etc/sysconfig/mouse.\n"
++"\n"
++"Would you like to proceed in creating a new configuration?"
++msgstr ""
++"Powsta³ b³±d podczas odczytu pliku /etc/sysconfig/mouse.\n"
++"\n"
++"Chcesz kontynuowaæ i utworzyæ now± konfiguracjê?"
++
++#. probe to see if we can determine mouse type and port
++#: ../mouseconfig.c:531
++msgid "Mouse"
++msgstr "Myszka"
++
++#: ../mouseconfig.c:531
++msgid "Probing for mouse type..."
++msgstr "Detekcja typu myszki..."
++
++#: ../mouseconfig.c:535
++msgid "Probing Result"
++msgstr "Wyniki Detekcji"
++
++#: ../mouseconfig.c:536
++msgid "Probing found a %s mouse on port %s."
++msgstr "Detekcja znalaz³a myszkê typu %s pod³±czon± do portu %s."
++
++#: ../mouseconfig.c:583
++msgid "Emulate Three Buttons"
++msgstr "Emulacja Trzech Klawiszy"
++
++#: ../mouseconfig.c:583
++msgid "Yes"
++msgstr "Tak"
++
++#: ../mouseconfig.c:583
++msgid "No"
++msgstr "Nie"
++
++#: ../mouseconfig.c:584
++msgid ""
++"X Windows generally works best with a three button mouse.  If your mouse only has two buttons you can emulate the third by pressing both buttons at the same time.\n"
++"\n"
++"Would you like to enable this emulation?\n"
++"\n"
++"(This option is only needed if you have a 2 button mouse)"
++msgstr ""
++"Praca z X Windows jest wygodniejsza z myszk± trójklawiszow±. Je¶li Twoja myszka posiada tylko dwa klawisze, mo¿esz wykorzystaæ emulacjê trzeciego klawisza przez naciskanie dwóch klawiszy jednocze¶nie.\n"
++"\n"
++"Czy chcesz uaktywniæ t± emulacjê?\n"
++"\n"
++"(Jest to potrzebne tylko wtedy, gdy Twoja myszka ma tylko dwa klawisze)"
