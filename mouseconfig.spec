@@ -71,22 +71,3 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_sbindir}/mouseconfig
 %{_mandir}/man8/*
 %lang(pt) %{_mandir}/pt_BR/man8/*
-
-%changelog
-* Thu Sep  3 1998 Tomasz K³oczko <kloczek@rudy.mif.pg.gda.pl>
-  [2.7-2]
-- added mouseconfig-pl.po.patch with polish translation 
-  (Konrad Stepieñ <konrad@interdata.com.pl>),
-- added mouseconfig-makefile.patch with fixing problems on building
-  mouseconfig from non root account and for use $RPM_OPT_FLAGS in all
-  places during compile,
-- added -q %setup parameter,
-- mouseconfig is now recompiled against slang 1.2.x, 
-- changed Buildroot to /tmp/%%{name}-%%{version}-root,
-- added using %%{name} and %%{version} in Source,
-- added %lang macros for %{_datadir}/locale/*/LC_MESSAGES/mouseconfig.mo
-  files,
-- removed "RPM_OPT_FLAGS=\"$RPM_OPT_FLAGS\"" make parameter (not necessary),
-- added %attr and %defattr macros in %files (allows build package from
-  non-root account),
-- start at RH sec file.
