@@ -9,6 +9,7 @@ Release:	1
 License:	distributable
 Group:		Applications/System
 Source0:	%{name}-%{version}.tar.gz
+# Source0-md5:	dcf2c85f8259736b683412ce5462d38b
 Patch1:		%{name}-pl.po.patch
 ExcludeArch:	sparc
 ExcludeArch:	s390 s390x
