@@ -1,6 +1,6 @@
 Summary:	Red Hat & PLD Mouse Configuration tool
 Summary(de):	Red Hat & PLD Mauskonfigurations-Tool
-Summary(fr):	L'outil de configuration de la souris de Red Hat & PLD.
+Summary(fr):	L'outil de configuration de la souris de Red Hat & PLD
 Summary(pl):	Narzêdzie do konfiguracji myszy
 Summary(tr):	Red Hat & PLD fare yapýlandýrma aracý
 Name:		mouseconfig
