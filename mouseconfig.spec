@@ -4,15 +4,16 @@ Summary(fr):	L'outil de configuration de la souris de Red Hat & PLD.
 Summary(pl):	Narzêdzie do konfiguracji myszy
 Summary(tr):	Red Hat & PLD fare yapýlandýrma aracý
 Name:		mouseconfig
-Version:	3.9
+Version:	4.25
 Release:	1
 License:	distributable
 Group:		Applications/System
 Source0:	%{name}-%{version}.tar.gz
-Patch0:		%{name}-pl.po.patch
-Patch1:		%{name}-kernel23.patch
+Patch1:		%{name}-pl.po.patch
 ExcludeArch:	sparc
+ExcludeArch:	s390 s390x
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRequires:	kudzu-devel, newt-devel
 
 %description
 This is a text based mouse configuration tool. You can use it to set
@@ -46,25 +47,18 @@ beraber kullanýlabilir.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch1 -p1
 
 %build
 # First check running Linux release ... 
-RELEASE=`uname -r | head -c 3`
-if [ "$RELEASE" = "2.3" ]; then
-    patch -p1 < %{PATCH1}
-fi
-
 %{__make} CPPFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 %{__make} \
-    PREFIX=$RPM_BUILD_ROOT \
+    DESTDIR=$RPM_BUILD_ROOT \
+    mandir=%{_mandir} install \
     install
-
-install -d $RPM_BUILD_ROOT%{_datadir}
-mv -f $RPM_BUILD_ROOT/usr/man $RPM_BUILD_ROOT%{_datadir}
 
 %find_lang %{name}
 
