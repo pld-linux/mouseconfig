@@ -3,8 +3,8 @@ Summary(fr): L'outil de configuration de la souris de Red Hat.
 Summary(de): Red Hat Mauskonfigurations-Tool
 Summary(tr): Red Hat fare yapýlandýrma aracý
 Name:        mouseconfig
-Version:     2.7
-Release:     2
+Version:     3.0.5
+Release:     1
 Copyright:   distributable
 Group:       Utilities/System
 Source:      %{name}-%{version}.tar.gz
@@ -41,7 +41,7 @@ kurulumunda Red Hat Xconfigurator programý ile beraber kullanýlabilir.
 %patch1 -p1
 
 %build
-make RPM_OPT_FLAGS="$RPM_OPT_FLAGS"
+make
 strip mouseconfig
 
 %install
@@ -57,11 +57,12 @@ rm -rf $RPM_BUILD_ROOT
 %attr(644, root,  man) /usr/man/man8/mouseconfig.8
 %lang(cz) /usr/share/locale/cz/LC_MESSAGES/mouseconfig.mo
 %lang(de) /usr/share/locale/de/LC_MESSAGES/mouseconfig.mo
-%lang(en) /usr/share/locale/en_RN/LC_MESSAGES/mouseconfig.mo
+%lang(en) /usr/share/locale/en*/LC_MESSAGES/mouseconfig.mo
 %lang(fr) /usr/share/locale/fr/LC_MESSAGES/mouseconfig.mo
 %lang(no) /usr/share/locale/no/LC_MESSAGES/mouseconfig.mo
 %lang(pl) /usr/share/locale/pl/LC_MESSAGES/mouseconfig.mo
 %lang(ro) /usr/share/locale/ro/LC_MESSAGES/mouseconfig.mo
+%lang(sr) /usr/share/locale/sr/LC_MESSAGES/mouseconfig.mo
 %lang(tr) /usr/share/locale/tr/LC_MESSAGES/mouseconfig.mo
 
 %changelog
