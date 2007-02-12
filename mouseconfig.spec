@@ -1,8 +1,8 @@
 Summary:	Red Hat & PLD Mouse Configuration tool
-Summary(de):	Red Hat & PLD Mauskonfigurations-Tool
-Summary(fr):	L'outil de configuration de la souris de Red Hat & PLD
-Summary(pl):	Narzêdzie do konfiguracji myszy
-Summary(tr):	Red Hat & PLD fare yapýlandýrma aracý
+Summary(de.UTF-8):   Red Hat & PLD Mauskonfigurations-Tool
+Summary(fr.UTF-8):   L'outil de configuration de la souris de Red Hat & PLD
+Summary(pl.UTF-8):   NarzÄ™dzie do konfiguracji myszy
+Summary(tr.UTF-8):   Red Hat & PLD fare yapÄ±landÄ±rma aracÄ±
 Name:		mouseconfig
 Version:	4.25
 Release:	1
@@ -22,29 +22,29 @@ the proper mouse type for programs like 'gpm'. It also can be used in
 conjunction with the Red Hat Xconfigurator to setup the mouse for the
 X Window System.
 
-%description -l fr
+%description -l fr.UTF-8
 Outil de configuration de la souris en mode texte. Permet de
-configurer le type correct de souris pour des programmes comme « gpm
-». Sert aussi avec Xconfigurator de Red Hat pour configurer la souris
-pour le système X.
+configurer le type correct de souris pour des programmes comme Â« gpm
+Â». Sert aussi avec Xconfigurator de Red Hat pour configurer la souris
+pour le systÃ¨me X.
 
-%description -l de
+%description -l de.UTF-8
 Dies ist ein textbasierendes Mauskonfigurations-Tool. Es kann benutzt
-werden, um den richtigen Maustyp für Programme wie gpm einzustellen,
+werden, um den richtigen Maustyp fÃ¼r Programme wie gpm einzustellen,
 oder aber in Kombination mit dem Red-Hat-XConfigurator zum Einrichten
-der Maus für das X-Window-System.
+der Maus fÃ¼r das X-Window-System.
 
-%description -l pl
-To jest tekstowe narzêdzie do konfiguracji myszy. Mo¿esz u¿yæ go do
-ustawienia typu myszki programach typu gpm. Mo¿e byæ tak¿e
-wykorzystane w po³±czeniu z redhatowym Xconfiguratorem do ustawienia
+%description -l pl.UTF-8
+To jest tekstowe narzÄ™dzie do konfiguracji myszy. MoÅ¼esz uÅ¼yÄ‡ go do
+ustawienia typu myszki programach typu gpm. MoÅ¼e byÄ‡ takÅ¼e
+wykorzystane w poÅ‚Ä…czeniu z redhatowym Xconfiguratorem do ustawienia
 myszy dla X Window System.
 
-%description -l tr
-Metin tabanlý bir fare yapýlandýrma aracýdýr. gpm benzeri programlar
-için uygun fare tipinin kurulmasýnda kullanýlýr. Ayný zamanda X Window
-Sistemi'nin fare kurulumunda Red Hat Xconfigurator programý ile
-beraber kullanýlabilir.
+%description -l tr.UTF-8
+Metin tabanlÄ± bir fare yapÄ±landÄ±rma aracÄ±dÄ±r. gpm benzeri programlar
+iÃ§in uygun fare tipinin kurulmasÄ±nda kullanÄ±lÄ±r. AynÄ± zamanda X Window
+Sistemi'nin fare kurulumunda Red Hat Xconfigurator programÄ± ile
+beraber kullanÄ±labilir.
 
 %prep
 %setup -q
