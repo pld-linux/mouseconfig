@@ -1,8 +1,8 @@
 Summary:	Red Hat & PLD Mouse Configuration tool
-Summary(de.UTF-8):   Red Hat & PLD Mauskonfigurations-Tool
-Summary(fr.UTF-8):   L'outil de configuration de la souris de Red Hat & PLD
-Summary(pl.UTF-8):   Narzędzie do konfiguracji myszy
-Summary(tr.UTF-8):   Red Hat & PLD fare yapılandırma aracı
+Summary(de.UTF-8):	Red Hat & PLD Mauskonfigurations-Tool
+Summary(fr.UTF-8):	L'outil de configuration de la souris de Red Hat & PLD
+Summary(pl.UTF-8):	Narzędzie do konfiguracji myszy
+Summary(tr.UTF-8):	Red Hat & PLD fare yapılandırma aracı
 Name:		mouseconfig
 Version:	4.25
 Release:	1
